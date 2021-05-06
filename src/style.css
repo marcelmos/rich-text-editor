@@ -1,0 +1,72 @@
+
+body{
+    background-color: #bdbdbd;
+}
+
+#container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#editor{
+    width: 794px;
+    min-height: 1123px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    border: solid 1px #dadada;
+    background-color: #fff;
+    padding: 2.5rem;
+    margin-top: 10px;
+}
+
+.tool-bar{
+    height: 40px;
+}
+
+.file-title{
+    height: 35px;
+    padding: 0 10px;
+    border: none;
+    position: relative;
+    top: -2px;
+}
+
+.btn{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    border: solid 1px #dadada;
+}
+
+.btn:hover{
+    background-color: rgb(214, 214, 214);
+}
+.btn:active{
+    background-color: rgb(187, 187, 187);
+}
+
+
+.modal{
+    background-color: #eeeeee;
+    border: solid 2px #000;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    text-align: right;
+}
+
+.modal>.close{
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+}
+.close:hover, .btn:hover{
+    cursor: pointer;
+}
